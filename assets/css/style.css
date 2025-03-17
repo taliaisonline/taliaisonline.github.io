@@ -3,6 +3,7 @@ layout: Stylesheet
 --- 
 @import "fruity.css";
 
+
 html,
 html[data-theme="light"] {
     --color-bg-main: #FFFFFF;
@@ -182,6 +183,7 @@ body {
 .section {
     padding-top: var(--padding-broad);
 }
+
 
 header {
     display: flex;
@@ -381,6 +383,7 @@ code {
     border: none;
 }
 
+
 pre code {
     font-family: Consolas, 'Courier New', Courier, monospace;
     display: inline-block;
@@ -487,6 +490,7 @@ hr {
     margin-top: -25px;
 }
 
+
 .site-heading-rtl>.main-page-subheading {
     color: var(--color-text-main);
     font-family: var(--primary-font-family);
@@ -495,6 +499,8 @@ hr {
     margin-top: -8px;
     margin-right: 20px;
 }
+
+
 
 .site-heading-rtl a {
     text-decoration: none;
@@ -522,6 +528,7 @@ hr {
     margin-left: 20px;
     margin-top: -25px;
 }
+
 
 .site-heading-ltr>.main-page-subheading {
     color: var(--color-text-main);
@@ -607,11 +614,13 @@ hr {
     color: var(--color-text-sub) !important;
 }
 
+
 #markdown-toc::before {
     content: "Contents";
     font-weight: bold;
     text-align: center;
 }
+
 
 #markdown-toc li {
     margin-left: 1rem;
@@ -638,6 +647,7 @@ hr {
 #markdown-toc a:hover {
     text-decoration: underline;
 }
+
 
 /* Common custom components between Main Site and Notes: Searchbar, Backbutton, ContentBox, Related Posts/Notes, Copyright,  */
 
@@ -837,6 +847,7 @@ hr {
     color: var(--color-text-main) !important;
 }
 
+
 .search-overlay {
     position: fixed;
     top: 0;
@@ -896,6 +907,7 @@ hr {
     cursor: pointer;
     font-weight: 600;
 }
+
 
 .feed-title-excerpt-block {
     width: 100%;
@@ -1054,6 +1066,7 @@ blockquote .mn-right {
     text-align: left;
 }
 
+
 li .sn-right,
 li .mn-right {
     float: right;
@@ -1063,11 +1076,13 @@ li .mn-right {
     text-align: left;
 }
 
+
 .tooltip {
     display: inline;
     position: relative;
     text-align: left;
 }
+
 
 .tooltip bottom {
     display: none;
@@ -1174,6 +1189,8 @@ label.srs-toggle {
     word-wrap: break-word;
 }
 
+
+
 .scroll-to-top {
     position: fixed;
     bottom: 20px;
@@ -1225,6 +1242,8 @@ label.srs-toggle {
     color: var(--color-text-main);
     text-decoration: none;
 }
+
+
 
 /* context-menu styling */
 .context-menu {
@@ -1424,6 +1443,8 @@ label.srs-toggle {
     }
 }
 
+
+
 @media screen and (max-width: 800px) {
 
     .box {
@@ -1530,6 +1551,7 @@ a[href^="http"] {
 }
 
 /*Homepage*/
+
 
 .home-wrapper {
     display: flex;
