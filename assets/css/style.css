@@ -1,3 +1,9 @@
+---
+layout: Stylesheet
+---
+
+@import "fruity.css";
+
 @font-face {
   font-family: 'Work Sans';
   src: url('/assets/fonts/WorkSans-Light.woff2') format('woff2'),
@@ -6,13 +12,11 @@
   font-weight: 300;
   font-style: normal;
 }
+
 body {
   font-family: 'Work Sans', sans-serif;
 }
---- 
-layout: Stylesheet 
---- 
-@import "fruity.css";
+
 html,
 html[data-theme="light"] {
     --color-bg-main: #F4EEF7;
