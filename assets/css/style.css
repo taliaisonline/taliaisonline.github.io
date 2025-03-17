@@ -8,7 +8,7 @@ html[data-theme="light"] {
     --color-bg-sub: #FAFAFC;
     --color-text-main: #93526B;
     --color-text-sub: #5D5D67;
-    --color-text-link: #2380ED;
+    --color-text-link: #4B988D;
     --color-border-dark: #363636;
     --color-border: #BABCBD;
     --color-border-light: #E5E5E5;
@@ -44,7 +44,7 @@ html[data-theme="dark"] {
         --color-bg-sub: #FAFAFC;
         --color-text-main: #93526B;
         --color-text-sub: #5D5D67;
-        --color-text-link: #2380ED;
+        --color-text-link: #4B988D;
         --color-border-dark: #363636;
         --color-border: #BABCBD;
         --color-border-light: #E5E5E5;
