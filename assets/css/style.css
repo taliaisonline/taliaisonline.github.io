@@ -1,3 +1,11 @@
+@font-face {
+    font-family: 'Work Sans';
+    src: url('/assets/fonts/WorkSans-Light.woff2') format('woff2'),
+         url('/assets/fonts/WorkSans-Light.woff') format('woff'),
+         url('/assets/fonts/WorkSans-Light.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
 --- 
 layout: Stylesheet 
 --- 
@@ -140,7 +148,15 @@ h4,
 h5,
 h6 {
     margin: 0;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    /* Ensure headings use Work Sans */
+}
+
+/* Set specific weights for different heading levels */
+h1 { font-weight: 300; } /* Light */
+h2 { font-weight: 400; } /* Regular */
+h3 { font-weight: 500; } /* Medium */
+h4, h5, h6 { font-weight: 600; } /* Semi-Bold */
 }
 
 p a,
