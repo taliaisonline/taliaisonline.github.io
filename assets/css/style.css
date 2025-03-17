@@ -2,8 +2,6 @@
 layout: Stylesheet 
 --- 
 @import "fruity.css";
-
-
 html,
 html[data-theme="light"] {
     --color-bg-main: #FFFFFF;
