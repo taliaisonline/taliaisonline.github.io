@@ -9,8 +9,8 @@ html[data-theme="light"] {
     --color-text-main: #93526B;
     --color-text-sub: #6A5277;
     --color-text-link: #4B988D;
-    --color-border-dark: #363636;
-    --color-border: #BABCBD;
+    --color-border-dark: #8A8A45;
+    --color-border: #1E65D0;
     --color-border-light: #E5E5E5;
 }
 
@@ -45,8 +45,8 @@ html[data-theme="dark"] {
         --color-text-main: #93526B;
         --color-text-sub: #6A5277;
         --color-text-link: #4B988D;
-        --color-border-dark: #363636;
-        --color-border: #BABCBD;
+        --color-border-dark: #8A8A45;
+        --color-border: #1E65D0;
         --color-border-light: #E5E5E5;
     }
 }
