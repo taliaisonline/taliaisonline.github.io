@@ -101,7 +101,7 @@
             {%- endif -%}
 
             <!--- Notes Layout-->
-            {%- if page.content-type == "notes" -%}
+            {% if page["content-type"] == "notes" %}
             <div class="column is-5-widescreen  is-6-desktop is-8-tablet is-12-mobile">
                     <div class="note-page-section">
                         <div>
@@ -123,6 +123,23 @@
                     {%- endif -%}
                     <h1>{{page.title}}</h1>
                     {%- include Content.html -%}
+                        <!-- 🌱 Optional Metadata Rendering -->
+<div class="post-meta">
+  {% if page.planted %}
+    <p>🌱 <strong>planted:</strong> {{ page.planted }}</p>
+  {% endif %}
+  {% if page['last-tended'] %}
+    <p>☀️ <strong>last tended:</strong> {{ page['last-tended'] }}</p>
+  {% endif %}
+  {% if page.tags %}
+    <p>🏷️ <strong>tags:</strong> 
+      {% for tag in page.tags %}
+        <span class="tag">{{ tag }}</span>{% unless forloop.last %}, {% endunless %}
+      {% endfor %}
+    </p>
+  {% endif %}
+</div>
+                        
                     {%- include Backlinks.html -%}
                     </div>
             </div>
@@ -163,6 +180,22 @@
                          </div>
                      <h1>{{page.title}}</h1>
                      {%- include Content.html -%}
+                         <!-- 🌱 Optional Metadata Rendering -->
+      <div class="post-meta">
+        {% if page.planted %}
+          <p>🌱 <strong>planted:</strong> {{ page.planted }}</p>
+        {% endif %}
+        {% if page['last-tended'] %}
+          <p>☀️ <strong>last tended:</strong> {{ page['last-tended'] }}</p>
+        {% endif %}
+        {% if page.tags %}
+          <p>🏷️ <strong>tags:</strong> 
+            {% for tag in page.tags %}
+              <span class="tag">{{ tag }}</span>{% unless forloop.last %}, {% endunless %}
+            {% endfor %}
+          </p>
+        {% endif %}
+      </div>
                      {%- include Backlinks.html -%}
                      </div>
              </div>

@@ -2,7 +2,7 @@
 layout: Post
 permalink: /notes
 feedformat: card
-title: Digital Garden
+title: wander through the garden
 ---
 
-The feed page shows all notes from `notes` folder. If you want to hide any notes from this feed, add `feed:hide` on note's Frontmatter. Eg:[[Hidden Note]]
+🌿 this page page shows all the notes - aka the seedlings, buds, saplings, and plants - that i have so far. if you'd like to take a walk through my garden, feel free to search below (and stay awhile)! :^)

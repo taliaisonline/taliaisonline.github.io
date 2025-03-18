@@ -1,25 +1,40 @@
---- 
-layout: Stylesheet 
---- 
+---
+layout: Stylesheet
+---
+
 @import "fruity.css";
+
+@font-face {
+  font-family: 'Work Sans';
+  src: url('/assets/fonts/WorkSans-Light.woff2') format('woff2'),
+       url('/assets/fonts/WorkSans-Light.woff') format('woff'),
+       url('/assets/fonts/WorkSans-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+}
+
 html,
 html[data-theme="light"] {
     --color-bg-main: #F4EEF7;
     --color-bg-sub: #FAFAFC;
     --color-text-main: #93526B;
-    --color-text-sub: #5D5D67;
+    --color-text-sub: #6A5277;
     --color-text-link: #4B988D;
-    --color-border-dark: #363636;
-    --color-border: #BABCBD;
+    --color-border-dark: #8A8A45;
+    --color-border: #1E65D0;
     --color-border-light: #E5E5E5;
 }
 
 html[data-theme="dark"] {
-    --color-bg-main: #262626;
+    --color-bg-main: #6A5277;
     --color-bg-sub: #18181C;
-    --color-text-main: #FAFAFC;
+    --color-text-main: #F4EEF7;
     --color-text-sub: #FFFEFF;
-    --color-text-link: #6D9EFF;
+    --color-text-link: #72B6C0;
     --color-border-dark: #E6E6E6;
     --color-border: #696969;
     --color-border-light: #353535;
@@ -29,11 +44,11 @@ html[data-theme="dark"] {
 
     html,
     html[data-theme="dark"] {
-        --color-bg-main: #262626;
+        --color-bg-main: #6A5277;
         --color-bg-sub: #18181C;
-        --color-text-main: #FAFAFC;
+        --color-text-main: #F4EEF7;
         --color-text-sub: #FFFEFF;
-        --color-text-link: #6D9EFF;
+        --color-text-link: #72B6C0;
         --color-border-dark: #E6E6E6;
         --color-border: #696969;
         --color-border-light: #353535;
@@ -43,10 +58,10 @@ html[data-theme="dark"] {
         --color-bg-main: #F4EEF7;
         --color-bg-sub: #FAFAFC;
         --color-text-main: #93526B;
-        --color-text-sub: #5D5D67;
+        --color-text-sub: #6A5277;
         --color-text-link: #4B988D;
-        --color-border-dark: #363636;
-        --color-border: #BABCBD;
+        --color-border-dark: #8A8A45;
+        --color-border: #1E65D0;
         --color-border-light: #E5E5E5;
     }
 }
@@ -140,8 +155,15 @@ h4,
 h5,
 h6 {
     margin: 0;
-    font-family: 'IBM Plex Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+    /* Ensure headings use Work Sans */
 }
+
+/* Set specific weights for different heading levels */
+h1 { font-weight: 300; } /* Light */
+h2 { font-weight: 400; } /* Regular */
+h3 { font-weight: 500; } /* Medium */
+h4, h5, h6 { font-weight: 600; } /* Semi-Bold */
 
 p a,
 ul a,

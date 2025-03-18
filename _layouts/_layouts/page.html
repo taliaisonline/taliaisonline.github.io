@@ -1,0 +1,45 @@
+---
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+    <meta content="{{ site.author }}" property="article:author">
+    <meta property="og:image" content="{{ site.baseurl }}/assets/img/OGImg.png">
+    <meta content="{{ page.title }}" property="og:title">
+    <meta content="website" property="og:type">
+    <meta content="{{ site.url }}{{ page.url }}" property="og:url">
+
+    <title>{{ page.title }} - {{ site.heading }}</title>
+
+    <script data-host="https://microanalytics.io" data-dnt="false" src="https://microanalytics.io/js/script.js" id="ZwSg9rf6GA" async defer></script>
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+    <link rel="apple-touch-icon" href="{{ site.baseurl }}/assets/img/profile.png">
+    <link rel="icon" href="{{ site.baseurl }}/assets/img/favicon.png" type="image/png" sizes="16x16" />
+
+    <link href="{{ '/assets/css/style.css' | relative_url }}" rel="stylesheet" />
+    <link href="{{ '/assets/css/main.css' | relative_url }}" rel="stylesheet" />
+    <link href="{{ '/assets/css/Util.css' | relative_url }}" rel="stylesheet" />
+    <link href="{{ '/assets/css/vendor/Katex.css' | relative_url }}" rel="stylesheet" />
+
+    <link rel="alternate" type="application/rss+xml" href="{{ site.url }}/feed.xml">
+</head>
+
+<body>
+<main>
+    {%- include Nav.html -%}
+    <section class="section">
+        <div class="columns is-centered">
+            <div class="column is-6-widescreen is-8-desktop is-8-tablet is-12-mobile">
+                <h1>{{ page.title }}</h1>
+                {%- include Content.html -%}
+            </div>
+        </div>
+    </section>
+    {%- include Footer.html -%}
+</main>
+</body>
+</html>
