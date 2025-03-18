@@ -15,7 +15,7 @@
               "state": {
                 "file": "_notes/Public/digital garden resources.md",
                 "mode": "source",
-                "source": false
+                "source": true
               },
               "icon": "lucide-file",
               "title": "digital garden resources"

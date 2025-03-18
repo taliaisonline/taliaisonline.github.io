@@ -10,6 +10,7 @@ tags:
   - intentionality
 planted: 2025-03-17
 last-tended: 2025-03-18
+content-type: notes
 ---
 i want to create a digital garden as a means of being more intentional and creative with my time in general, and specifically my time online. after coming across the concept of a digital garden on [tiktok (@unearthworms)](https://www.tiktok.com/t/ZP82mdsx5/) and [youtube (anna howard)](https://youtu.be/0tY7Z53QJo8?si=kQyEIpcKgLDhe-n7), i felt that this was the exact type of documentation resource that i was looking for to track the content that i consume on a daily basis and ensure that it isn't going in one ear and out the other. long-term retention is the ultimate goal, but even just having a dedicated place to reference the things i've already learned and / or engaged with is a huge leap. on this page in particular, i want to keep track of the resources and inspiration that i used / am using to build my digital garden.
 
