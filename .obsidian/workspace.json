@@ -98,7 +98,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:black-wellness",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -119,8 +119,7 @@
               "title": "Bookmarks"
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -214,10 +213,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f070287ded8e1541",
+  "active": "e2782ff315f4462e",
   "lastOpenFiles": [
     "_notes/Public/digital garden resources.md",
     "_notes/Public/ingredients in personal care products.md",
+    "2025-03-18.md",
+    "Untitled.canvas",
     "_notes/Private/Hidden Note.md",
     "_notes/Private/Markdown Rendered.md",
     "_posts/2020-03-01-features.md",
