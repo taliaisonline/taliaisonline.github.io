@@ -3,3 +3,13 @@ title: about me
 layout: page
 permalink: /about/
 ---
+
+hi there! welcome to my corner of the internet - a virtual menagerie of things that have sparked my interest. for more information about what I'm using this space for, check out my [digital garden resources](/digital-garden-resources).
+
+my name is talia, and i am based out of the united states. i have, like, zero experience with coding, website-building, anything like that (unless you count some light tumblr html editing when i was 14), so this whole experience has been cool and new for me.
+
+i have tons of different interests, hence my desire to make something like this. some of my interests are (ranging from confusingly vague to hyper-specific and in no particular order): psychology, anthropology, sociology, 80s flip-clock alarm clocks, the bang & olufsen beosound 9000, mystery science theater 3000 (the original ones), it takes two, arthur morgan, spider-punk, casa pedregal, caroline polachek, chamjam's sticker club, topo chico with lime (and ranch water by extension), good coffee great coffee (on my ipad specifically), hirono and peach riot, mechanical keyboards, lara jean covey, the warriors concept album, sunday farmers' markets, browsing neocities sites, homemade iced matcha, that time dan and phil played it takes two, bestdressed's youtube era, winter peonies, palomas, comically long scarves, are.na, toorumlk's interpretation of romione, caprisongs, the sims 4, speed puzzling competitions - among other things. in fact, some of these things may be planted in my garden someday! :^)
+
+i'm really excited about this project. it feels good to feel and be earnest about something again, when everything lately feels so surreal and dissociation-inducing. i'm planning on getting a guest book up and running here soon, similar to the one on <a href="https://talyssa.com/" target="_blank">talyssa's landing page</a>.
+
+thanks for stopping by! enjoy your time in the garden. :)
