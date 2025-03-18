@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "_notes/Public/ingredients in personal care products.md",
+                "file": "_notes/Public/exploring personal care product safety.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ingredients in personal care products"
+              "title": "exploring personal care product safety"
             },
             "group": "62a9a6d34ceb0bd7"
           }
@@ -34,7 +34,7 @@
             "state": {
               "type": "localgraph",
               "state": {
-                "file": "_notes/Public/ingredients in personal care products.md",
+                "file": "_notes/Public/exploring personal care product safety.md",
                 "options": {
                   "collapse-filter": true,
                   "search": "",
@@ -62,7 +62,7 @@
                 }
               },
               "icon": "lucide-git-fork",
-              "title": "Graph of ingredients in personal care products"
+              "title": "Graph of exploring personal care product safety"
             },
             "group": "62a9a6d34ceb0bd7"
           }
@@ -139,7 +139,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "_notes/Public/ingredients in personal care products.md",
+                "file": "_notes/Public/exploring personal care product safety.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +149,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for ingredients in personal care products"
+              "title": "Backlinks for exploring personal care product safety"
             }
           },
           {
@@ -158,12 +158,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "_notes/Public/ingredients in personal care products.md",
+                "file": "_notes/Public/exploring personal care product safety.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from ingredients in personal care products"
+              "title": "Outgoing links from exploring personal care product safety"
             }
           },
           {
@@ -187,13 +187,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "_notes/Public/ingredients in personal care products.md",
+                "file": "_notes/Public/exploring personal care product safety.md",
                 "followCursor": false,
                 "showSearch": false,
                 "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of ingredients in personal care products"
+              "title": "Outline of exploring personal care product safety"
             }
           }
         ]
@@ -215,15 +215,26 @@
   },
   "active": "e2782ff315f4462e",
   "lastOpenFiles": [
+    "assets/fonts/newfile.txt",
+    "assets/fonts/WorkSans-Thin.woff2",
+    "assets/fonts/WorkSans-Thin.woff",
+    "assets/fonts/WorkSans-Thin.ttf",
+    "assets/fonts/WorkSans-Thin.otf",
+    "assets/fonts/WorkSans-SemiBold.woff2",
+    "assets/fonts/WorkSans-SemiBold.woff",
+    "assets/fonts/WorkSans-SemiBold.ttf",
+    "assets/fonts/WorkSans-SemiBold.otf",
+    "assets/fonts/WorkSans-Regular.woff2",
+    "assets/fonts/WorkSans-Regular.woff",
+    "_posts/2024-03-18-about.md",
     "_notes/Public/digital garden resources.md",
-    "_notes/Public/ingredients in personal care products.md",
+    "_notes/Public/exploring personal care product safety.md",
     "2025-03-18.md",
     "Untitled.canvas",
     "_notes/Private/Hidden Note.md",
     "_notes/Private/Markdown Rendered.md",
     "_posts/2020-03-01-features.md",
     "_posts/2020-03-01-how-to.md",
-    "_notes/Private/Credits.md",
-    "_notes/Private"
+    "_notes/Private/Credits.md"
   ]
 }

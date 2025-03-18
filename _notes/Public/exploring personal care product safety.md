@@ -1,5 +1,5 @@
 ---
-title: what's in your lotion? exploring personal care product safety 🌱
+title: exploring personal care product safety
 feed: show
 date: 2025-03-18
 permalink: /personal-care-product-safety
@@ -14,7 +14,7 @@ planted: 2025-03-18
 last-tended: 2025-03-18
 content-type: notes
 ---
----
+
 
 recently, i listened to npr’s life kit episode called ["what's in your lotion? a guide to personal care product safety"](https://open.spotify.com/episode/62xReOF8kT5ShTzon8ysqE?si=DnxPKVGATFuClXEOIC1oaw&context=spotify%3Ashow%3A5J0xAfsLX7bEYzGxOin4Sd), and it made me think deeply about what’s actually in the products i use every day.
 
