@@ -132,12 +132,12 @@
     <p>☀️ <strong>last tended:</strong> {{ page['last-tended'] }}</p>
   {% endif %}
   {% if page.tags %}
-    <p>🏷️ <strong>tags:</strong> 
-      {% for tag in page.tags %}
-        <span class="tag">{{ tag }}</span>{% unless forloop.last %}, {% endunless %}
-      {% endfor %}
-    </p>
-  {% endif %}
+  <p>🏷️ <strong>tags:</strong> 
+    {% for tag in page.tags %}
+      <a href="/tags/{{ tag | slugify }}" class="tag">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+  </p>
+{% endif %}
 </div>
                         
                     {%- include Backlinks.html -%}
@@ -189,12 +189,12 @@
           <p>☀️ <strong>last tended:</strong> {{ page['last-tended'] }}</p>
         {% endif %}
         {% if page.tags %}
-          <p>🏷️ <strong>tags:</strong> 
-            {% for tag in page.tags %}
-              <span class="tag">{{ tag }}</span>{% unless forloop.last %}, {% endunless %}
-            {% endfor %}
-          </p>
-        {% endif %}
+  <p>🏷️ <strong>tags:</strong> 
+    {% for tag in page.tags %}
+      <a href="/tags/{{ tag | slugify }}" class="tag">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
+    {% endfor %}
+  </p>
+{% endif %}
       </div>
                      {%- include Backlinks.html -%}
                      </div>
