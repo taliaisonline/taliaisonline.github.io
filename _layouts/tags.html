@@ -1,0 +1,28 @@
+---
+layout: default
+---
+
+<section class="section">
+  <div class="columns is-centered">
+    <div class="column is-8-widescreen is-8-desktop is-8-tablet is-12-mobile">
+      <h1>Tagged: {{ page.tag }}</h1>
+
+      {% assign tagged_posts = site.pages | where_exp: "post", "post.tags contains page.tag and post.content-type == 'notes'" %}
+
+      {% if tagged_posts.size > 0 %}
+        <ul>
+          {% for post in tagged_posts %}
+            <li>
+              <a href="{{ post.url }}">{{ post.title }}</a>
+              {% if post.planted %}
+                <small>🌱 Planted: {{ post.planted }}</small>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+      {% else %}
+        <p>No posts found with this tag.</p>
+      {% endif %}
+    </div>
+  </div>
+</section>
