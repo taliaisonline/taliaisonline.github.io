@@ -10,6 +10,7 @@ tags:
   - health
   - wellness
   - parenthood
+  - intentionality
 planted: 2025-03-18
 last-tended: 2025-03-18
 content-type: notes
