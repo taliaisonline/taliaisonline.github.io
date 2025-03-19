@@ -7,7 +7,7 @@ layout: default
     <div class="column is-8-widescreen is-8-desktop is-8-tablet is-12-mobile">
       <h1>Tagged: {{ page.tag }}</h1>
 
-      {% assign tagged_posts = site.pages | where_exp: "post", "post.tags contains page.tag and post.content-type == 'notes'" %}
+      {% assign tagged_posts = site.pages | where_exp: "post", "post.tags contains '#{page.tag}'" %}
 
       {% if tagged_posts.size > 0 %}
         <ul>
