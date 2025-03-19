@@ -18,7 +18,7 @@ content-type: notes
 
 recently, i listened to npr’s life kit episode called ["what's in your lotion? a guide to personal care product safety"](https://open.spotify.com/episode/62xReOF8kT5ShTzon8ysqE?si=DnxPKVGATFuClXEOIC1oaw&context=spotify%3Ashow%3A5J0xAfsLX7bEYzGxOin4Sd), and it made me think deeply about what’s actually in the products i use every day.
 
-## the history of cosmetics regulation
+## an incredibly brief history of cosmetics regulation
 
 back in 1933, a mascara called lash lure blinded people because of the chemical dye it contained. that incident led to the federal food, drug, and cosmetic act, giving the food & drug administration (fda) the power to regulate cosmetic products.  
 
@@ -54,9 +54,9 @@ finally, there are **parabens** — synthetic preservatives that help products l
 
 this makes me so anxious and overwhelmed - not only for myself as a black woman (a group that is apparently more affected by these chemicals than average) but also as a black woman who potentially wants to have children one day. it seems so stressful to have to worry to this extent about what products i'm using / eating / coming in contact with while i'm pregnant or trying to conceive as well as what products i put my child(ren) in contact with once they're born. how is it sustainable or realistic in any sense to be consistenly smart about these choices?
 
-this info really makes me want to scale back my product usage, especially as it relates to my skin and body care routines. i want to go back to the drawing board and do a deep dive in to not only which products i'm using, but also how many. but again, just the *idea* of the mental load i'll have to take on to tackle the amount of chemicals i'm coming into contact with in my daily life is so overwhelming.
+this info really makes me want to scale back my product usage, especially as it relates to my skin and body care routines. i want to go back to the drawing board and do a deep dive into not only which products i'm using, but also how many. but again, just the *idea* of the mental load i'll have to take on to tackle the amount of chemicals i'm coming into contact with in my daily life is so overwhelming.
 
- it's findings like this that get me vaguely interested in the non-tox / low-tox lifestyle - but the low / non-tox to alt-right pipeline is a concerning correlation at the *least*, and is worthy of it's own note.
+ it's findings like these that get me vaguely interested in the non-tox / low-tox lifestyle - but the low / non-tox to alt-right pipeline is a concerning correlation at the *least*, and is worthy of it's own note.
 
 ## my next steps
 
